@@ -3,8 +3,7 @@ The aim is to make an interactive plot to visualise polynomial curve fitting wit
 training set sizes, noise level and regularisation parameters.
 =#
 
-using Plots
-using Random
+using CairoMakie
 
 mutable struct Data  # should help in plotting (mostly)
     x::Vector{Float64}  # inp
